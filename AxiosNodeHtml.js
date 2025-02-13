@@ -78,5 +78,5 @@ app.get("/delete/:id", async (req, res) => {
 });
 
 app.listen(5500, () => {
-    console.log(`Server is running on http://localhost:${port}`)
+    console.log(`http://localhost:5500`)
     });
